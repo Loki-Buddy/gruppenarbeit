@@ -1,0 +1,61 @@
+.goBackButton {
+    color: rgb(255, 165, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: transparent;
+    margin: 25px;
+    box-shadow: 1px 1px 10px rgb(0, 238, 255);
+    border: 2px solid rgb(0, 238, 255);
+    text-align: center; /* Zentriert den Text horizontal */
+    display: flex; /* Ermöglicht flexibles Layout */
+    justify-content: center; /* Zentriert den Text horizontal (Flexbox) */
+    align-items: center; /* Zentriert den Text vertikal (Flexbox) */
+}
+
+.tierTable tr {
+    height: 25px; /* Fixiert die Höhe jeder Tabellenzeile */
+}
+
+.tierTable td, .tierTable th {
+    line-height: 30px; /* Zentriert den Text vertikal innerhalb der Zelle */
+    vertical-align: middle; /* Stellt sicher, dass der Text mittig bleibt */
+}
+
+.editButton{
+    box-shadow: 1px 1px 10px rgb(255, 165, 0);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 165, 0);
+}
+
+.editButton:hover{
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px rgb(0, 238, 255);
+    border: 2px solid rgb(0, 238, 255);
+    text-align: center; /* Zentriert den Text horizontal */
+}
+
+.placeholder{
+    padding-left: 20px;
+}
+
+.goBackButton:hover {
+    color: rgb(0, 238, 255);
+    border: 2px solid rgb(255, 165, 0);
+    box-shadow: 1px 1px 10px rgb(255, 165, 0);
+}
+
+.property{
+    font-size: 18px;
+    color: rgb(255, 165, 0);
+}
+
+.value{
+    font-size: 18px;
+    color: rgb(0, 238, 255);
+}

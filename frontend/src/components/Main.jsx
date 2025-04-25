@@ -7,7 +7,7 @@ function Main() {
       <section>
         <p>Hello zusammen,</p>
         <p>Aufgabe für die Gruppenarbeit:</p>
-        <a href="https://github.com/suheib96/web-development-24-11" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/suheib96/web-development-24-11" target="_blank" rel="noopener noreferrer" style={{color: 'rgb(255, 165, 0)', textShadow: '1px 1px 25px'}}>
           https://github.com/suheib96/web-development-24-11
         </a>
         <p>
@@ -28,14 +28,14 @@ function Main() {
         </ul>
         <p>Für <code>POST</code> und <code>PUT</code> braucht ihr folgenden JSON-Body:</p>
         <pre>
-          <code>
-{`{
-  "tierart": "Hund",
-  "name": "Bello",
-  "krankheit": "Husten",
-  "geburtstag": "01.03.2024",  
-  "gewicht": 7.1
-}`}
+          <code style={{color: 'rgb(255, 166, 0)', textShadow: '1px 1px 25px'}}>
+        {`        {
+          "tierart": "Hund",
+          "name": "Bello",
+          "krankheit": "Husten",
+          "geburtstag": "01.03.2024",
+          "gewicht": 7.1
+        }`}
           </code>
         </pre>
         <p>Aufgaben:</p>

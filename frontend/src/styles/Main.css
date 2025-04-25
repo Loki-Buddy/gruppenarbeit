@@ -2,3 +2,7 @@ section{
     color: rgb(0, 238, 255);
     margin: 15px;
 }
+
+section strong{
+    color: rgb(255, 166, 0);
+}
