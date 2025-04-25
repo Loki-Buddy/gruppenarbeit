@@ -1,6 +1,7 @@
 const sqlite3 = require("sqlite3").verbose();
 // const db = new sqlite3.Database(":memory:");
 const db = new sqlite3.Database("./tiere.db");
+const cors = require("cors");
 
 db.serialize(() => {
   createTableQuery = `CREATE TABLE IF NOT EXISTS tiere (
@@ -13,7 +14,7 @@ db.serialize(() => {
     )`;
   db.run(createTableQuery); // REAL steht für Float Zahlen (5.5)
 
-  insertQuery = `INSERT INTO tiere (tierart,name,krankheit,geburtstag,gewicht) VALUES("Hund","Rudolfo","Fieber","01.01.2000",3.2),("Katze","Haku","Keine","01.08.2021",4.5) `;
+  insertQuery = `INSERT INTO tiere (tierart,name,krankheit,geburtstag,gewicht) VALUES("Hund","Rudolfo","Fieber","01.01.2000",3.2),("Katze","Haku","Keine","01.08.2021",4.5)`;
 
   db.run(insertQuery);
 
